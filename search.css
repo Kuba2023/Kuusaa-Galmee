@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width:1347px;
+}
+.topping{
+    height:5px;
+    width:30px;
+}
+ 
+ 
+.kuba1 {
+    background-color: rgb(9, 216, 54);
+    box-shadow: 0 10px 15px rgb(64, 211, 19);
+    width: 1347px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: lowercase;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    height: 60px;
+    padding-top: 10px;
+    border-top: 4px solid rgb(16, 221, 43);
+
+}
+
+.container ul a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(14, 200, 247);
+}
+
+.IMG1 {
+    width: 1347px;
+    height: 10px;
+    padding-bottom: 0px;
+    box-shadow:2px 5px 20px rgb(245, 245, 245);
+
+}
+.container ul li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(57, 68, 92);
+    float: left;
+    font-weight: bold;
+    line-height: 50px;
+    width: 140px;
+    position: relative;
+    height: 60px;
+    cursor: pointer;
+    color: rgb(14, 200, 247);
+    font-size: 14px;
+    box-shadow: 0 10px 15px rgb(57, 68, 92);
+
+}
+
+ul ul {
+    display: none;
+    position: absolute
+}
+
+ul li:hover {
+    background-color: yellow;
+    border-radius: 2px;
+}
+
+ul li:hover>ul {
+    display: block;
+    position: relative;
+}
+
+ul ul ul {
+    margin-left: 140.8px;
+    top: -10px;
+    background-color: rgb(57, 68, 92);
+}
+
+
+/* CSSS FOR AUTO COMPLETED SEARCH BAR */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', cambria,sans-serif;
+}
+
+
+.wrapper {
+    max-width:450px;
+    float:right;
+}
+
+.wrapper .search-input {
+    height:60px;
+    position: relative;
+}
+
+.search-input input {
+    height: 60px;
+    width: 367px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color:rgb(255, 13, 203);
+    background-color: rgb(57, 68, 92);
+    box-shadow: 05px 10px 15px rgb(57, 68, 92);
+    
+}
+.search-input.active input {
+border-radius: 0px 5px 0 0;
+ color:#fdfafa;
+ font-size:20px;
+}
+.search-input .autocom-box {
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.search-input.active .autocom-box {
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.autocom-box li {
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+}
+
+.search-input.active .autocom-box li {
+    display: block;
+}
+
+.autocom-box li:hover {
+    background: #f1f0f0;
+}
+
+.search-input .icon {
+    position: absolute;
+    right: 0;
+    top: 18px;
+    height: 60px;
+    width: 40px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 25px;
+    color: #f7f0f0;
+    cursor: pointer;
+}
+
+/*LIST OF SERVICE FOR CUSTOMERS */
+.bodyT{
+    padding:5px;
+    display: flex;
+    margin-top:90px;
+}
+.body1 {
+   
+    margin-left: 80px;
+    width: 880px;
+  /*  background-color: rgb(230, 245, 234);*/
+    height:600px;  
+}
+.body2 {
+  background-color:rgba(150, 136, 136, 0.842);
+    width:450px;
+    float: right;  
+    margin-left:20px;
+    padding:10px;
+    margin-top:100px;
+}
